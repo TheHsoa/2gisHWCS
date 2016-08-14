@@ -14,7 +14,7 @@ namespace FalseBit
             }
             return l;
         }
-                static void Main(string[] args)
+        static void Main(string[] args)
         {
             int m = Convert.ToInt32(Console.ReadLine());
             Console.WriteLine(m & ~(1 << (MostSignificantBit(m) - 1)));
@@ -23,4 +23,3 @@ namespace FalseBit
         }
     }
 }
-
